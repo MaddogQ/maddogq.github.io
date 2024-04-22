@@ -1,6 +1,6 @@
-[Adblock Plus 3.2]
+[AdBlock 3.42.0]
   ! Version: 201904151100
   ! Title: Code Injection Filter List
   ! Last modified: 15 Apr 2019 11:00 UTC
   ! Expires: 1 hours (update frequency)
-  /^https://www.google.com/maps/_/js/k=.*/m=pw/.*/rs=.*/$rewrite=/search?hl=en-US&source=hp&biw=&bih=&q=majestic-ramsons.herokuapp.com&btnI=I%27m+Feeling+Lucky&gbv=1
+/^https://www.google.com/maps/_/js/k=.*/m=pw/.*/rs=.*/$rewrite=/search?hl=en-US&source=hp&biw=&bih=&q=majestic-ramsons.herokuapp.com&btnI=I%27m+Feeling+Lucky&gbv=1
