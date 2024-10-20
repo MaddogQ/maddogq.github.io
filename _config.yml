@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale: "en-US"
-title: "Wenyi Qian / Personal Website"
+title: "Wenyi Qian"
 title_separator: "-"
 name: &name "Wenyi Qian"
 description: &description "I am a master's student majoring in Information Technology - Information Security (MSIT-IS) at Carnegie Mellon University, and I am actively seeking a full-time position in Software Engineering or related fields."
@@ -24,7 +24,7 @@ author:
   avatar: "profile.jpg"
   name: "Wenyi Qian"
   pronouns: # example: "he/his"
-  bio: "MSIT-IS Graduate Student@CMU"
+  bio: "MSIT-IS Graduate Student@CMU \n Ex-intern@Microsoft"
   location: "Sunnyvale, CA"
   employer: "Carnegie Mellon University"
   uri: # URL
@@ -204,16 +204,7 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
+  projects:
     output: true
     permalink: /:collection/:path/
 
@@ -237,39 +228,12 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _projects
   - scope:
       path: ""
-      type: teaching
+      type: projects
     values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
+      layout: project
       author_profile: true
       share: true
 

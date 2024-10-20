@@ -1,49 +1,75 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am a master's student majoring in Information Technology - Information Security (MSIT-IS) at Carnegie Mellon University, and I am actively seeking a full-time position in **Software Engineering** or related fields.
 
-A data-driven personal website
+I am proficient in programming using Python and Java, and highly skilled at solving problems related to data structures, algorithms, and system security. Through the diverse projects and courses I’ve taken over the years, I have gained a deep understanding of various topics within computer science, such as **Operating Systems, Deep Learning, Natural Language Processing, and Cybersecurity**. My internship at Microsoft, where I worked on Linux Integration Services Automation, taught me not only automation and system optimization techniques but also how to collaborate effectively on large-scale projects with cross-functional teams. My leadership experience in developing the Labtool UI project also honed my ability to manage teams and projects. 
+
+Alongside my technical skills, I value communication, teamwork, and adaptability, which have been further strengthened through my experiences in research and project management. I consider myself a motivated, open-minded, and curious person who thrives in diverse and challenging environments. I am confident I can quickly learn new technologies and contribute to innovative solutions in any setting.
+
+Coursework
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## Graduate
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+### 14-798 - INI Practicum
+In this hands-on practicum course, I applied my knowledge in cybersecurity, AI, and systems engineering by working on real-world projects in collaboration with industry partners. This experience allowed me to bridge the gap between theory and practice in complex, real-world environments.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+### 14-761 - Applied Information Assurance
+I explored advanced topics in information system security, including penetration testing, intrusion detection, incident response, and digital forensics. This course deepened my understanding of how to secure systems against real-world threats.
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+### 14-795 - AI Applications in Information Security
+I investigated how AI techniques can enhance information security, focusing on machine learning models for threat detection, anomaly analysis, and automated incident responses. This course sharpened my ability to integrate AI into cybersecurity strategies.
 
-**Markdown generator**
+### 14-828 - Browser Security
+I learned about critical web security issues, including browser architecture, sandboxing, cross-site scripting (XSS), cross-site request forgery (CSRF), and modern defense mechanisms used by browsers. This course gave me a deeper understanding of securing web applications and environments.
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+### 14-760 - Advanced Real-World Data Networks
+In this course, I studied modern network architecture and protocols, with an emphasis on software-defined networking (SDN), network security, and performance optimization. I gained hands-on experience in enhancing network performance and security.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+### 17-630 - Prompt Engineering
+I focused on designing and optimizing prompts for large language models (LLMs), learning how to guide AI systems effectively to generate accurate and meaningful responses. This course helped me fine-tune LLMs for various applications. Additionally, I completed [KateiKyoushi](/projects/)
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+### 11-611 - Natural Language Processing
+I gained practical experience in NLP techniques such as tokenization, syntactic parsing, machine translation, and sentiment analysis. Using tools like **NLTK**, I completed hands-on projects that solidified my understanding of NLP algorithms and their applications. I also gained experience in fine-tuning LLMs and devising effective prompts.
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+### 14-741 - Introduction to Information Security
+I learned the fundamental principles of information security, covering topics such as cryptography, hash collision, network security, software vulnerabilities and blockchains. This course provided a solid foundation for understanding how to protect data and systems.
+
+### 14-817 - Cyber Risk Modeling
+I delved into cyber risk assessment, focusing on modeling techniques like attack trees, threat modeling, and risk quantification. This course sharpened my ability to analyze and manage cyber risks effectively.
+
+### 11-785 - Introduction to Deep Learning
+I explored neural networks, including backpropagation, convolutional neural networks (CNNs), and recurrent neural networks (RNNs), and applied them in various AI tasks. Working with **PyTorch**, I implemented deep learning models and gained practical skills in AI development.
+
+## Undergraduate
+
+### CSCI 479 - Computer Science Design Project
+As part of this capstone course, I led a 4-person team in developing a medium-scale software project ([Labtool UI](/projects/)), following the full software development life cycle. I applied project management and teamwork skills to ensure the successful delivery of the solution.
+
+### CSCI 365 - Image Processing & Analysis
+I studied techniques in image processing using **PyTorch**, such as image transformation, filtering, and segmentation. This course introduced me to pattern recognition and advanced image analysis techniques.
+
+### CSCI 315 - Operating Systems Design
+I learned the core principles of operating system design, including process management, memory management, file systems, and concurrency in **C**. I gained a strong understanding of how operating systems function and manage resources.
+
+### CSCI 311 - Design & Analysis of Algorithms
+In this course, I focused on algorithm complexity analysis and design techniques like divide and conquer, dynamic programming, and greedy algorithms. I improved my problem-solving skills by learning how to optimize algorithms for efficiency.
+
+### CSCI 206 - Computer Organization
+I gained an understanding of the structure and function of modern computers, covering topics like assembly language, instruction sets (RISC-V), data paths, and memory hierarchies. I also practiced memory manipulation in **C**. This course gave me a deeper insight into how hardware and software interact.
+
+### CSCI 205 - Software Engineering & Design
+I learned about software development methodologies using **Java**, focusing on design patterns and teamwork on large software projects. This course emphasized collaboration and design skills essential for building scalable software.
+
+### CSCI 204 - Intro to Computer Science II
+I enhanced my skills in object-oriented programming, data abstraction, and advanced data structures like trees and graphs using **Python**. This course built on my foundational programming knowledge.
+
+### CSCI 203 - Intro to Computer Science I
+In my first programming course, I learned the basics of programming, problem-solving, and algorithms using **Python**. I covered essential programming concepts such as loops, functions, and data structures, which set the foundation for my future studies.

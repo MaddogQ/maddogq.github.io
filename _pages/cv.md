@@ -9,56 +9,59 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+You can download a PDF copy of my CV [here](../files/Resume_Wenyi_Qian.pdf).
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+# Education
+- **M.S. in Information Technology - Information Security**, Carnegie Mellon University, 2024 (expected)
+- **B.A. in Computer Science and Linguistics**, Bucknell University, 2022 (GPA:3.8/4.0)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+# Work Experience
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- Fall 2023 & Spring 2024: *Software Engineer* @ **JiangSu ZhongMingHuiYe Technology LTD, Wuxi**
+  - Led development of a "Smart Community Management Platform" leveraging IoT sensors  
+  - Designed a foundational data system improving real-time data accuracy by 30%  
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+- Summer 2021: *Software Engineer Intern* @ **Microsoft, Shanghai**
+  - Enhanced Linux Integration Services Automation (LISA) using text-processing techniques  
+  - Integrated Sphinx and Read the Docs for documentation automation  
+
+- Summer 2020: *Software Engineer Intern* @ **Lakecloud, Wuxi**  
+  - Developed a web app for metro construction site resource management  
+  - Automated web interface testing, saving 8+ hours of manual testing per week  
+
+# Paper
+
+- Fall 2023: *Co-author* @ **Carnegie Mellon University, Pittsburgh**
+  - Real-world Blind Super-Resolution with Text Description Modality
+  - Contributed significantly to a paper exploring an enhanced Single Image Super-Resolution (SISR) model by integrating textual descriptions into the existing blind SISR framework
+  - Proposed and implemented a novel approach that combines visual and textual data to improve model performance in handling complex image degradation
+  - Compared this approach with established models like Real-ESRGAN, demonstrating improved clarity and adaptability across various real-world image degradation scenarios
+
+- Spring 2024: *Lead Author* @ **Carnegie Mellon University, Pittsburgh**
+  - Assessing the Security and Privacy Implications of Ad Blockers in Web Browsers
+  - Led the research and writing of a paper examining the potential privacy and security risks associated with ad blockers
+  - Analyzed browser extension permissions, reviewed code bases for vulnerabilities, and assessed third-party filter lists
+  - Proposed recommendations to improve ad-blocking technologies and promote user safety
+
+# Skills
+
+**Programming Languages**  
+- Python  
+- C  
+- Java  
+- JavaScript  
+
+**Frameworks & Tools**  
+- Springboot  
+- Beautiful Soup  
+- Sphinx  
+- Read the Docs  
+- Pandoc  
+
+**Cloud/DevOps**  
+- AWS  
+- GCP  
+- Git  
+- Linux  
+- Docker  
+- CI/CD Pipelines  
