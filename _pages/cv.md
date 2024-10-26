@@ -29,15 +29,15 @@ You can download a PDF copy of my CV [here](../files/Resume_Wenyi_Qian.pdf).
   - Developed a web app for metro construction site resource management  
   - Automated web interface testing, saving 8+ hours of manual testing per week  
 
-# Paper
+# Paperwork
 
-- Fall 2023: *Co-author* @ **Carnegie Mellon University, Pittsburgh**
+- Fall 2023: [Real-world Blind Super-Resolution with Text Description Modality on Facial Images](../files/IDL_Initial_Final_Report_NeurIPS_2023.pdf), *Co-author* @ **Carnegie Mellon University, Pittsburgh**
   - Real-world Blind Super-Resolution with Text Description Modality
   - Contributed significantly to a paper exploring an enhanced Single Image Super-Resolution (SISR) model by integrating textual descriptions into the existing blind SISR framework
   - Proposed and implemented a novel approach that combines visual and textual data to improve model performance in handling complex image degradation
   - Compared this approach with established models like Real-ESRGAN, demonstrating improved clarity and adaptability across various real-world image degradation scenarios
 
-- Spring 2024: *Lead Author* @ **Carnegie Mellon University, Pittsburgh**
+- Spring 2024: [Assessing the Security and Privacy Implications of Ad Blockers in Web Browsers](../files/14828_Project_Final_Paper_Team_9.pdf), *Lead Author* @ **Carnegie Mellon University, Pittsburgh**
   - Assessing the Security and Privacy Implications of Ad Blockers in Web Browsers
   - Led the research and writing of a paper examining the potential privacy and security risks associated with ad blockers
   - Analyzed browser extension permissions, reviewed code bases for vulnerabilities, and assessed third-party filter lists
