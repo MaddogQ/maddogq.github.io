@@ -18,16 +18,16 @@ You can download a PDF copy of my CV [here](../files/Resume_Wenyi_Qian.pdf).
 # Work Experience
 
 - Fall 2023 & Spring 2024: *Software Engineer* @ **JiangSu ZhongMingHuiYe Technology LTD, Wuxi**
-  - Led development of a "Smart Community Management Platform" leveraging IoT sensors  
-  - Designed a foundational data system improving real-time data accuracy by 30%  
+  - Led development of a "Smart Community Management Platform" leveraging IoT sensors
+  - Designed a foundational data system improving real-time data accuracy by 30%
 
 - Summer 2021: *Software Engineer Intern* @ **Microsoft, Shanghai**
-  - Enhanced Linux Integration Services Automation (LISA) using text-processing techniques  
-  - Integrated Sphinx and Read the Docs for documentation automation  
+  - Enhanced Linux Integration Services Automation (LISA) using text-processing techniques
+  - Integrated Sphinx and Read the Docs for documentation automation
 
-- Summer 2020: *Software Engineer Intern* @ **Lakecloud, Wuxi**  
-  - Developed a web app for metro construction site resource management  
-  - Automated web interface testing, saving 8+ hours of manual testing per week  
+- Summer 2020: *Software Engineer Intern* @ **Lakecloud, Wuxi**
+  - Developed a web app for metro construction site resource management
+  - Automated web interface testing, saving 8+ hours of manual testing per week
 
 # Paperwork
 
@@ -45,23 +45,44 @@ You can download a PDF copy of my CV [here](../files/Resume_Wenyi_Qian.pdf).
 
 # Skills
 
-**Programming Languages**  
-- Python  
-- C  
-- Java  
-- JavaScript  
+**Programming Languages**
 
-**Frameworks & Tools**  
-- Springboot  
-- Beautiful Soup  
-- Sphinx  
-- Read the Docs  
-- Pandoc  
+[![Programming Languages](https://skillicons.dev/icons?i=py,java,c,js,ts,html,css)](https://skillicons.dev)
 
-**Cloud/DevOps**  
-- AWS  
-- GCP  
-- Git  
-- Linux  
-- Docker  
-- CI/CD Pipelines  
+**Markup Languages / Typesetting System**
+
+[![Typesetting](https://skillicons.dev/icons?i=md,latex)](https://skillicons.dev)
+
+**Frameworks & Tools**
+
+Web:
+
+[![Web](https://skillicons.dev/icons?i=angular,django,electron,flask,nodejs,react,spring,selenium)](https://skillicons.dev)
+
+Machine Learning:
+
+[![Machine Learning](https://skillicons.dev/icons?i=anaconda,pytorch)](https://skillicons.dev)
+
+Document System:
+
+- Beautiful Soup
+- Sphinx
+- Read the Docs
+- Pandoc
+
+**Cloud/DevOps**
+
+[![Cloud/DevOps](https://skillicons.dev/icons?i=aws,gcp,git,github,linux,docker)](https://skillicons.dev)
+
+- CI/CD Pipelines
+
+**IDEs**
+
+[![Tools](https://skillicons.dev/icons?i=vscode,idea,vim,atom)](https://skillicons.dev)
+
+**Others**
+
+[![Others](https://skillicons.dev/icons?i=blender)](https://skillicons.dev)
+
+
+
