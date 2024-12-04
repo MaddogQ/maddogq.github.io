@@ -12,32 +12,36 @@ redirect_from:
 You can download a PDF copy of my CV [here](../files/Resume_Wenyi_Qian.pdf).
 
 # Education
-- **M.S. in Information Technology - Information Security**, Carnegie Mellon University, 2024 (expected)
+
+- **M.S. in Information Technology - Information Security**, Carnegie Mellon University, 2024 (expected, GPA:3.63/4.0)
 - **B.A. in Computer Science and Linguistics**, Bucknell University, 2022 (GPA:3.8/4.0)
 
 # Work Experience
 
-- Fall 2023 & Spring 2024: *Software Engineer* @ **JiangSu ZhongMingHuiYe Technology LTD, Wuxi**
+- Fall 2023 & Spring 2024: _Software Engineer_ @ **JiangSu ZhongMingHuiYe Technology LTD, Wuxi**
+
   - Led development of a "Smart Community Management Platform" leveraging IoT sensors
-  - Designed a foundational data system improving real-time data accuracy by 30%
+  - Designed a foundational data system improving real-time data accuracy using Redis
 
-- Summer 2021: *Software Engineer Intern* @ **Microsoft, Shanghai**
-  - Enhanced Linux Integration Services Automation (LISA) using text-processing techniques
-  - Integrated Sphinx and Read the Docs for documentation automation
+- Summer 2021: _Software Engineer Intern_ @ **Microsoft, Shanghai**
 
-- Summer 2020: *Software Engineer Intern* @ **Lakecloud, Wuxi**
-  - Developed a web app for metro construction site resource management
-  - Automated web interface testing, saving 8+ hours of manual testing per week
+  - Optimized [Linux Integration Services Automation (LISA)](https://github.com/microsoft/lisa) using text-processing techniques
+  - Designed and implemented an automated documentation system using Sphinx and Read the Docs
+
+- Summer 2020: _Software Engineer Intern_ @ **Lakecloud, Wuxi**
+  - Developed a web app for managing human and building resources using Springboot
+  - Automated web interface testing using Jenkins and Selenium
 
 # Paperwork
 
-- Fall 2023: [Real-world Blind Super-Resolution with Text Description Modality on Facial Images](../files/IDL_Initial_Final_Report_NeurIPS_2023.pdf), *Co-author* @ **Carnegie Mellon University, Pittsburgh**
+- Fall 2023: [Real-world Blind Super-Resolution with Text Description Modality on Facial Images](../files/IDL_Initial_Final_Report_NeurIPS_2023.pdf), _Co-author_ @ **Carnegie Mellon University, Pittsburgh**
+
   - Real-world Blind Super-Resolution with Text Description Modality
   - Contributed significantly to a paper exploring an enhanced Single Image Super-Resolution (SISR) model by integrating textual descriptions into the existing blind SISR framework
   - Proposed and implemented a novel approach that combines visual and textual data to improve model performance in handling complex image degradation
   - Compared this approach with established models like Real-ESRGAN, demonstrating improved clarity and adaptability across various real-world image degradation scenarios
 
-- Spring 2024: [Assessing the Security and Privacy Implications of Ad Blockers in Web Browsers](../files/14828_Project_Final_Paper_Team_9.pdf), *Lead Author* @ **Carnegie Mellon University, Pittsburgh**
+- Spring 2024: [Assessing the Security and Privacy Implications of Ad Blockers in Web Browsers](../files/14828_Project_Final_Paper_Team_9.pdf), _Lead Author_ @ **Carnegie Mellon University, Pittsburgh**
   - Assessing the Security and Privacy Implications of Ad Blockers in Web Browsers
   - Led the research and writing of a paper examining the potential privacy and security risks associated with ad blockers
   - Analyzed browser extension permissions, reviewed code bases for vulnerabilities, and assessed third-party filter lists
@@ -83,6 +87,3 @@ Document System:
 **Others**
 
 [![Others](https://skillicons.dev/icons?i=blender)](https://skillicons.dev)
-
-
-
